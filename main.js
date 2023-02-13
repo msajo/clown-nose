@@ -28,10 +28,10 @@ function gotPose(results){
 }
 function draw(){
     image(video,0,0,300,300);
-    //fill("red");
-    //stroke("red");
-    //circle(nose_x,nose_y,20);
-    image(clown,nose_x,nose_y,30,30)
+    fill("red");
+    stroke("red");
+    circle(nose_x,nose_y,20);
+    
 }
 function take_snapshot(){
     save('clown_nose_img.png');
