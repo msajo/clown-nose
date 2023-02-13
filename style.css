@@ -1,0 +1,24 @@
+.btn-success:hover{
+    background-color:red ;
+}
+h3{
+    font-size: 40px ;
+    animation-name: text ;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite ;
+}
+canvas {
+    animation-name: color_change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes color_change {
+    from{box-shadow: 1px 1px 38px pink;}
+    to{box-shadow: 1px 1px 38px purple;}
+    
+}
+@keyframes text {
+    from{color: rgb(132, 242, 248) ; }
+    to{color: rgb(255, 119, 241) ;}
+    
+}
